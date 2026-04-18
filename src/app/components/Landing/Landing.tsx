@@ -12,7 +12,10 @@ export default function Landing() {
       <div className={styles.landing__intro}>
         <h1 className={styles.landing__title}>{`Hi! I'm Travis Allen`}</h1>
         <p className={styles.landing__description}>
-          {`I'm an full-stack / backend engineer with a passion for clean code, scalable systems, and seamless user experiences.`}
+          Staff Engineer specializing in distributed systems, high-throughput
+          data pipelines, and infrastructure observability. Founding engineer at
+          Gala Games — eight years building systems that process nearly a
+          million orders for 4 million users.
         </p>
         <ButtonLink
           href="/projects"
