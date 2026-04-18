@@ -1,0 +1,12 @@
+.experienceTabContent h2, .experienceTabContent h3 {
+  color: var(--color-text-paragraph);
+}
+
+.experienceTabContent__duration {
+  font-size: 1.2rem;
+  font-weight: 200;
+}
+
+.experienceTabContent__company {
+  margin-bottom: 2rem;
+}

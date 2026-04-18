@@ -1,0 +1,82 @@
+.aboutme {
+  display: flex;
+  justify-content: center;
+}
+
+.aboutme__container {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  width: 100%;
+}
+
+.aboutme__tabs {
+  display: flex;
+  flex-direction: row;
+  justify-content: stretch;
+  gap: 1rem;
+  align-self: stretch;
+  flex-wrap: nowrap;
+  width: 100%;
+}
+
+.aboutme__button {
+  font-size: 1.2rem;
+  flex: 1;
+  white-space: nowrap;
+  padding: 10px 12px;
+}
+
+@media (min-width: 768px) {
+  .aboutme__button {
+    /* font-size: 2rem; */
+    padding: 12px 31px;
+  }
+}
+
+.aboutme__button_active {
+  background-color: var(--color-background);
+  color: var(--color-primary);
+}
+
+.aboutme__button_inactive {
+  background-color: var(--color-card-background);
+  color: var(--color-text-paragraph);
+}
+
+.aboutme__content {
+  align-self: stretch;
+  width: 100%;
+}
+
+.aboutme__content p {
+  font-size: 1rem;
+  line-height: 1.6rem;
+  margin-bottom: 1.2rem;
+}
+
+@media (min-width: 768px) {
+  .aboutme__content p {
+    /* font-size: 1.8rem; */
+    /* line-height: 2.1rem;
+    margin-bottom: 1.7rem; */
+  }
+}
+
+@media (min-width: 768px) {
+  .aboutme__container {
+    flex-direction: row-reverse;
+  }
+
+  .aboutme__tabs {
+    width: 175px;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    align-self: flex-start;
+  }
+
+  .aboutme__content {
+    flex: 1;
+    max-width: 1200px;
+  }
+}

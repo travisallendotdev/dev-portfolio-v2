@@ -1,0 +1,10 @@
+.button {
+  border: none;
+  padding: 12px 31px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  cursor: pointer;
+  font-family: var(--font-kanit);
+  border-radius: 10px;
+}
