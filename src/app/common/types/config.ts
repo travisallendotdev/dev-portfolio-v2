@@ -7,13 +7,13 @@ export interface INavigationItem {
 export interface IProject {
   title: string;
   description: string;
-  image: {
+  image?: {
     src: string;
     alt: string;
     width: number;
     height: number;
   };
   techUsed: string[];
-  githubLink: string;
-  demoLink: string;
+  githubLink?: string;
+  demoLink?: string;
 }
