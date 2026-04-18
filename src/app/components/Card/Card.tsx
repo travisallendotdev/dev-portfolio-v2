@@ -5,15 +5,21 @@ interface CardProps {
   title?: string;
   children: React.ReactNode;
   className?: string;
+  style?: React.CSSProperties;
 }
 
-export default function Card({ title, children, className = '' }: CardProps) {
+export default function Card({
+  title,
+  children,
+  style = {},
+  className = '',
+}: CardProps) {
   const combinedClassName = applyStyles({
-    [styles.card]: true,
     [className || '']: !!className,
+    [styles.card]: true,
   });
   return (
-    <div className={combinedClassName}>
+    <div style={style} className={combinedClassName}>
       {title && <h2>{title}</h2>}
       {children}
     </div>
@@ -23,4 +29,5 @@ export default function Card({ title, children, className = '' }: CardProps) {
 Card.defaultProps = {
   title: '',
   className: '',
+  style: {},
 };

@@ -11,8 +11,8 @@
 }
 
 .landing__portrait {
-  width: 24rem;
-  margin: 2rem;
+  /* width: 24rem; */
+  margin: 1rem 0;
 }
 
 .landing__portrait {
@@ -29,7 +29,7 @@
 }
 
 .landing__description {
-  font-size: 2rem;
+  font-size: 1.5rem;
   font-weight: 300;
   color: var(--color-text);
   margin-bottom: 3rem;
@@ -55,7 +55,7 @@
   }
 
   .landing__description {
-    font-size: 1.5rem;
+    font-size: 1.3rem;
   }
 }
 

@@ -2,7 +2,7 @@
   position: fixed;
   top: 0;
   left: 0;
-  width: 70%;
+  width: 40%;
   height: 100%;
   z-index: 110;
   background-color: var(--color-background);
@@ -35,7 +35,7 @@
 
 .menu__btn_open svg,
 .menu__btn_close svg {
-  width: 2.5rem;
+  width: 1.5rem;
   fill: var(--color-primary);
 }
 
