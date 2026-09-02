@@ -14,7 +14,7 @@ describe('Landing', () => {
   it('renders the description', () => {
     render(<Landing />);
     const description = screen.getByText(
-      /I'm an full-stack \/ backend engineer with a passion for clean code, scalable systems, and seamless user experiences\./i
+      /Staff Engineer specializing in distributed systems, high-throughput data pipelines, and infrastructure observability\./i
     );
     expect(description).toBeInTheDocument();
   });
